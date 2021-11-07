@@ -62,7 +62,7 @@ double tstart,tcalc = 0;
 
 int main()
 {
-	omp_set_num_threads(16);
+	omp_set_num_threads(5);
 	tstart = omp_get_wtime(); // start timing
 
 	int window[9], row = 0, col = 0, numrows = 0, numcols = 0, MAX=0;
